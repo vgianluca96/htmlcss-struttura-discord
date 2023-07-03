@@ -83,13 +83,13 @@
 
 /* #endregion heroimg */
 
-/* #region sezione */
+/* #region sezione 1 */
 
-    .sez-container {
+    .s1-sez-container {
         background-color: var(--bg1);
     }
 
-    .container {
+    .s1-container {
         width: 80%;
         max-width: 1170px;
         margin: auto;
@@ -98,7 +98,7 @@
         align-items: center;
     }
 
-    .row {
+    .s1-row {
         width: 100%;
         height: 80%;
         background-color: var(--bg3);
@@ -107,33 +107,33 @@
         
     }
 
-    .col1 {
+    .s1-col1 {
         width: 60%;
         height: 80%;
         background-color: var(--bg4);
         border: var(--bord);
     }
 
-    .col2 {
+    .s1-col2 {
         width: 40%;
         height: 80%;
         background-color: var(--bg4);
         border: var(--bord);
     }
 
-    .card {
+    .s1-card {
         border: var(--bord);
     }
 
-/* #endregion sezione */
+/* #endregion sezione 1*/
 
-/* #region sezione */
+/* #region sezione 2 */
 
-    .sez-container2 {
+    .s2-sez-container {
         background-color: var(--bg21);
     }
 
-    .container2 {
+    .s2-container {
         width: 80%;
         max-width: 1170px;
         margin: auto;
@@ -142,7 +142,7 @@
         align-items: center;
     }
 
-    .row2 {
+    .s2-row {
         width: 100%;
         height: 80%;
         background-color: var(--bg23);
@@ -151,25 +151,86 @@
         
     }
 
-    .col21 {
+    .s2-col1 {
         width: 60%;
         height: 80%;
         background-color: var(--bg24);
         border: var(--bord);
     }
 
-    .col22 {
+    .s2-col2 {
         width: 40%;
         height: 80%;
         background-color: var(--bg24);
         border: var(--bord);
     }
 
-    .card2 {
+    .s2-card {
         border: var(--bord);
     }
 
-/* #endregion sezione  */
+/* #endregion sezione 2  */
+
+/* #region sezione 3 */
+
+.s3-sez-container {
+    background-color: var(--bg1);
+}
+
+.s3-container {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+    background-color: var(--bg2);
+    display: flex;
+    align-items: center;
+}
+
+.s3-row {
+    width: 100%;
+    height: 80%;
+    background-color: var(--bg3);
+    display: flex;
+    align-items: center;
+    
+}
+
+.s3-col1 {
+    width: 60%;
+    height: 80%;
+    background-color: var(--bg4);
+    border: var(--bord);
+}
+
+.s3-col2 {
+    width: 40%;
+    height: 80%;
+    background-color: var(--bg4);
+    border: var(--bord);
+}
+
+.s3-card {
+    border: var(--bord);
+}
+
+/* #endregion sezione 3 */
+
+/* #region sezione 4 */
+
+.s4-sez-container {
+    background-color: var(--bg21);
+}
+
+.s4-container {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+    background-color: var(--bg22);
+    display: flex;
+    align-items: center;
+}
+
+/* #endregion sezione 4  */
 
 /* #region footer */
 
@@ -177,7 +238,16 @@
         background-color: var(--bg1);
     }
 
-    .row3 {
+    .f-container {
+        width: 80%;
+        max-width: 1170px;
+        margin: auto;
+        background-color: var(--bg2);
+        display: flex;
+        align-items: center;
+    }
+
+    .f-row1 {
         width: 100%;
         height: 80%;
         background-color: var(--bg3);
@@ -187,25 +257,21 @@
         
     }
 
-    .col31 {
+    .f-col1 {
         width: 30%;
         height: 80%;
         background-color: var(--bg4);
         border: var(--bord);
     }
 
-    .col32 {
+    .f-col2 {
         width: 15%;
         height: 80%;
         background-color: var(--bg4);
         border: var(--bord);
     }
 
-    .card2 {
-        border: var(--bord);
-    }
-
-    .container4 {
+    .f-container2 {
         width: 80%;
         max-width: 1170px;
         margin: auto;
@@ -213,17 +279,16 @@
         display: flex;
     }
 
-    .row4 {
+    .f-row2 {
         width: 100%;
         height: 80%;
         background-color: var(--bg3);
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
     }
 
-    .col41 {
+    .f-col3 {
         width: 20%;
         height: 80%;
         background-color: var(--bg4);
