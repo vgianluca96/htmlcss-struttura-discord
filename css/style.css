@@ -1,5 +1,63 @@
+
+/* #region General */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --bg-header: rgb(250, 161, 83);
+    --bg-nav: rgb(187, 120, 60);
+    --bg-nav-item: rgb(130, 88, 51);
+}
+
+.debug1 {
+    height: 100px;
+}
+
+.debug2 {
+    height: 50px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.std-dim {
+    width:80%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+/* #endregion General */
+
+/* #region Header */
+
+header {
+    margin auto;
+    background-color: var(--bg-header);
+}
+
+nav {
+    background-color: var(--bg-nav);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item1 {
+    width: 15%;
+    background-color: var(--bg-nav-item);
+    border: 1px solid black;
+    height: 60%;
+}
+
+.nav-item2 {
+    width: 70%;
+    background-color: var(--bg-nav-item);
+    border: 1px solid black;
+    height: 60%;
+}
+
+/* #endregion Header */
