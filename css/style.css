@@ -27,6 +27,10 @@
         height: 150px;
     }
 
+    .debug3 {
+        height: 50px;
+    }
+
 /* #endregion General */
 
 /* #region Header */
@@ -79,7 +83,7 @@
 
 /* #endregion heroimg */
 
-/* #region sezione standard */
+/* #region sezione */
 
     .sez-container {
         background-color: var(--bg1);
@@ -121,9 +125,9 @@
         border: var(--bord);
     }
 
-/* #endregion seione standard */
+/* #endregion sezione */
 
-/* #region sezione standard */
+/* #region sezione */
 
     .sez-container2 {
         background-color: var(--bg21);
@@ -165,4 +169,65 @@
         border: var(--bord);
     }
 
-/* #endregion seione standard */
+/* #endregion sezione  */
+
+/* #region footer */
+
+    footer {
+        background-color: var(--bg1);
+    }
+
+    .row3 {
+        width: 100%;
+        height: 80%;
+        background-color: var(--bg3);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .col31 {
+        width: 30%;
+        height: 80%;
+        background-color: var(--bg4);
+        border: var(--bord);
+    }
+
+    .col32 {
+        width: 15%;
+        height: 80%;
+        background-color: var(--bg4);
+        border: var(--bord);
+    }
+
+    .card2 {
+        border: var(--bord);
+    }
+
+    .container4 {
+        width: 80%;
+        max-width: 1170px;
+        margin: auto;
+        background-color: var(--bg2);
+        display: flex;
+    }
+
+    .row4 {
+        width: 100%;
+        height: 80%;
+        background-color: var(--bg3);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .col41 {
+        width: 20%;
+        height: 80%;
+        background-color: var(--bg4);
+        border: var(--bord);
+    }
+
+/* #endregion footer */
